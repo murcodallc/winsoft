@@ -3,7 +3,7 @@ chcp 65001
 setlocal enabledelayedexpansion
 title WinSoft
 
-if exits logs.txt (
+if exist logs.txt (
     echo. >> logs.txt
     goto admin
 ) else (
